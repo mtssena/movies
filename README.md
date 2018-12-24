@@ -1,4 +1,4 @@
-# Teste Desenvolvedor Front-end
+# Desafio Técnico React Native
 
 ## Descrição
 
