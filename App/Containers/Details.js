@@ -51,7 +51,11 @@ class Details extends Component {
           <Title>Sinopse:</Title>
           <Content>{movie.overview}</Content>
           <Title>Lançado em:</Title>
-          <Content>{moment(movie.release_date).format("DD/MM/YYYY")}</Content>
+          <Content>
+            {movie.release_date
+              ? moment(movie.release_date).format("DD/MM/YYYY")
+              : ""}
+          </Content>
           <Title>Site:</Title>
           <TouchableOpacity onPress={() => Linking.openURL(movie.homepage)}>
             <Content>{movie.homepage}</Content>
