@@ -6,7 +6,7 @@ Tomei como base a maneira mais simples para executar o que foi pedido. Utilizand
 
 ## Solução
 
-Utilizei create-react-app para iniciar o projeto, configurei o eslint da maneira que mais gosto e configurei os reducers utilizando o padrão Redux-Ducks (https://github.com/erikras/ducks-modular-redux) juntamente com a lib `reduxsauce`. Utilizei `react-navigation` para controlar as rotas e `redux-persist` para persistência dos dados localmente.
+Utilizei create-react-app para iniciar o projeto, configurei o eslint da maneira que mais gosto e configurei os reducers utilizando o padrão Redux-Ducks juntamente com a lib `reduxsauce`. Utilizei `react-navigation` para controlar as rotas e `redux-persist` para persistência dos dados localmente.
 
 Como seriam necessários várias requests assincronos utilizei também `redux-sagas` para controlar os side-effects, possibilitando um maior controle das requisições.
 
