@@ -62,7 +62,6 @@ class Home extends Component {
   );
 
   render() {
-    console.log(this.props);
     return (
       <ScrollView>
         <Title>Último lançamento (Destaque)</Title>

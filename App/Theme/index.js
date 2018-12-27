@@ -1,5 +1,4 @@
 import { Platform, Dimensions } from 'react-native';
-import { Header as ReactNavigationHeader } from 'react-navigation';
 
 const deviceHeight = Dimensions.get('window').height;
 const deviceWidth = Dimensions.get('window').width;
